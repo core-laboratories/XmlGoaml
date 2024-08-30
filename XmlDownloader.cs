@@ -2,9 +2,9 @@ using System;
 using System.IO;
 using System.Xml.Linq;
 using System.Xml.Schema;
-using XmlGoamlLibrary;
+using XmlGoaml;
 
-namespace XmlGoamlLibrary
+namespace XmlGoaml
 {
 	public class XmlDownloader
 	{
