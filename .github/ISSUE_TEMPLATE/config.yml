@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Readme
+    url: https://github.com/core-laboratories/XmlGoaml#readme
+    about: Read more about the code
+  - name: About goAML
+    url: https://www.unodc.org/unodc/en/money-laundering/goaml.html
+    about: Learn more about goAML

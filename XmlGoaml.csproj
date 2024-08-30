@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>XmlGoaml</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>@core-laboratories</Authors>
+		<Company>Core Laboratories</Company>
+		<Description>A .NET project for processing and validating goAML data.</Description>
+		<PackageTags>xml xsd json dotnet csharp goaml aml anti-money-laundering unodc</PackageTags>
+		<RepositoryUrl>https://github.com/core-laboratories/XmlGoaml.git</RepositoryUrl>
+		<PackageLicenseExpression>CORE</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Avalonia" Version="11.1.3" />
+		<PackageReference Include="Avalonia.Desktop" Version="11.1.3" />
+		<PackageReference Include="Avalonia.ReactiveUI" Version="11.1.3" />
+	</ItemGroup>
+
+</Project>

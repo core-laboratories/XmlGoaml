@@ -1,0 +1,27 @@
+{
+	"name": "xmlgoaml",
+	"version": "1.0.0",
+	"description": "A .NET project for processing and validating goAML data.",
+	"scripts": {
+		"start": "dotnet run",
+		"build": "dotnet build XmlGoamlSolution.sln",
+		"test": "npm run build && dotnet test XmlGoamlSolution.sln"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/core-laboratories/XmlGoaml.git"
+	},
+	"keywords": [
+		"xml",
+		"xsd",
+		"json",
+		"dotnet",
+		"csharp",
+		"goaml",
+		"aml",
+		"anti-money-laundering",
+		"unodc"
+	],
+	"author": "@core-laboratories",
+	"license": "CORE"
+}

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlGoamlTests", "XmlGoamlTests\XmlGoamlTests.csproj", "{746909A5-1BAA-4C24-8221-D43162F667A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlGoamlConsoleApp", "XmlGoamlConsoleApp\XmlGoamlConsoleApp.csproj", "{5DA4C658-27B2-4758-BB36-CD9EE2060270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlGoamlLibrary", "XmlGoamlLibrary\XmlGoamlLibrary.csproj", "{328F94F4-BA65-4AEF-BF3A-B77A07CF923F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{746909A5-1BAA-4C24-8221-D43162F667A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746909A5-1BAA-4C24-8221-D43162F667A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746909A5-1BAA-4C24-8221-D43162F667A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746909A5-1BAA-4C24-8221-D43162F667A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA4C658-27B2-4758-BB36-CD9EE2060270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA4C658-27B2-4758-BB36-CD9EE2060270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA4C658-27B2-4758-BB36-CD9EE2060270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA4C658-27B2-4758-BB36-CD9EE2060270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{328F94F4-BA65-4AEF-BF3A-B77A07CF923F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{328F94F4-BA65-4AEF-BF3A-B77A07CF923F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{328F94F4-BA65-4AEF-BF3A-B77A07CF923F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{328F94F4-BA65-4AEF-BF3A-B77A07CF923F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
