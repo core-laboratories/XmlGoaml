@@ -18,16 +18,16 @@ jobs:
           dotnet-version: '7.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore XmlGoamlSolution.sln
 
       - name: Build
-        run: dotnet build --configuration Release --no-restore
+        run: dotnet build XmlGoamlSolution.sln --configuration Release --no-restore
 
       - name: Run tests
-        run: dotnet test --configuration Release --no-build --verbosity normal
+        run: dotnet test XmlGoamlSolution.sln --configuration Release --no-build --verbosity normal
 
       - name: Publish NuGet package
-        run: dotnet pack --configuration Release --no-restore --output ./artifacts
+        run: dotnet pack XmlGoamlSolution.sln --configuration Release --no-restore --output ./artifacts
         env:
           NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
 
