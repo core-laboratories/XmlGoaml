@@ -1,4 +1,4 @@
-namespace XmlGoamlLibrary
+namespace XmlGoaml
 {
 	public class ReportData
 	{

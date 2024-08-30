@@ -1,6 +1,6 @@
 using System.Xml.Linq;
 using Xunit;
-using XmlGoamlLibrary;
+using XmlGoaml;
 
 namespace XmlGoamlTests
 {
