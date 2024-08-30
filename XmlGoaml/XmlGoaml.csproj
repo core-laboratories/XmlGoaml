@@ -12,6 +12,7 @@
 		<Description>A .NET project for processing and validating goAML data.</Description>
 		<PackageTags>xml xsd json dotnet csharp goaml aml anti-money-laundering unodc</PackageTags>
 		<RepositoryUrl>https://github.com/core-laboratories/XmlGoaml.git</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 	</PropertyGroup>
 
@@ -21,8 +22,8 @@
 			<PackagePath>contentFiles/any/net7.0/</PackagePath>
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
-		<None Include="..\LICENSE" Pack="true" PackagePath=""/>
-		<None Include="..\README.md" Pack="true" PackagePath=""/>
+		<None Include="..\LICENSE" Pack="true" PackagePath="\"/>
+		<None Include="..\README.md" Pack="true" PackagePath="\"/>
 	</ItemGroup>
 
 </Project>
