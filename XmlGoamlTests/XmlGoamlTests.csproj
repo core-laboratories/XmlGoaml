@@ -21,8 +21,8 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 			<PrivateAssets>all</PrivateAssets>
 		</PackageReference>
-		<ProjectReference Include="..\XmlGoaml.csproj" />
-		<None Update="..\XmlSchema.xsd">
+		<ProjectReference Include="..\XmlGoaml\XmlGoaml.csproj" />
+		<None Update="..\XmlGoaml\XmlSchema.xsd">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>
