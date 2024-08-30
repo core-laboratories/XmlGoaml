@@ -8,6 +8,9 @@
 *.userosscache
 *.sln.docstates
 
+## Artifacts
+/artifacts/
+
 ## User-specific folders
 /.vs
 
