@@ -1,5 +1,4 @@
 using System.Xml.Linq;
-using Xunit;
 using XmlGoaml;
 
 namespace XmlGoamlTests
