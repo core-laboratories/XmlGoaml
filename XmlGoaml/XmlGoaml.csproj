@@ -21,8 +21,8 @@
 			<PackagePath>contentFiles/any/net7.0/</PackagePath>
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
-		<None Include="LICENSE" Pack="true" PackagePath=""/>
-		<None Include="README.md" Pack="true" PackagePath=""/>
+		<None Include="..\LICENSE" Pack="true" PackagePath=""/>
+		<None Include="..\README.md" Pack="true" PackagePath=""/>
 	</ItemGroup>
 
 </Project>
