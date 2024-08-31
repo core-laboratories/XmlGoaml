@@ -22,9 +22,6 @@
 			<PrivateAssets>all</PrivateAssets>
 		</PackageReference>
 		<ProjectReference Include="..\XmlGoaml\XmlGoaml.csproj" />
-		<None Update="..\XmlGoaml\XmlSchema.xsd">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None>
 	</ItemGroup>
 
 </Project>

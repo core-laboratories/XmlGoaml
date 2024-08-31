@@ -9,18 +9,8 @@ namespace XmlGoamlTests
 
 		public XmlDownloaderTests()
 		{
-			var xsdPath = Path.Combine(AppContext.BaseDirectory, "XmlSchema.xsd");
-
-			// Debug output to ensure the correct path
-			Console.WriteLine($"Looking for XSD file at path: {xsdPath}");
-
-			// Verify if the file exists
-			if (!File.Exists(xsdPath))
-			{
-				throw new FileNotFoundException($"XSD file not found at path: {xsdPath}");
-			}
-
-			_downloader = new XmlDownloader(xsdPath);
+			// Create an instance of XmlDownloader without needing an XSD file
+			_downloader = new XmlDownloader(null);  // Pass null or an empty string if the class handles that
 		}
 
 		[Fact]

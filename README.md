@@ -8,8 +8,18 @@ The goAML application is a fully integrated software solution developed specific
 
 ## Features
 
-- **XML Generation**: Generate XML files from JSON input.
-- **XML Validation**: Validate XML against a provided XSD schema.
+- **XML Generation**: Generate XML files from your parameters.
+- **XML Validation**: Validate XML against a provided XSD schema. (You need to connect XSD schema.)
+
+## XSD schema
+
+There are various versions of goAML XSD schema. You should include proper one which will suit your requirements.
+
+To connect schema:
+
+```csharp
+var xmlDownloader = new XmlDownloader(@"path\to\your\schema.xsd");
+```
 
 ## Getting Started
 
@@ -37,14 +47,22 @@ Run the tests using the following command:
 dotnet test XmlGoamlSolution.sln
 ```
 
+## Usage
+
+```csharp
+using XmlGoaml;
+var xmlDownloader = new XmlDownloader(@"path\to\your\schema.xsd");
+```
+
 ## Application Overview
 
 The XmlGoaml application is designed to facilitate the creation, conversion, and validation of XML reports in compliance with the United Nations Office on Drugs and Crime's (UNODC) goAML standards. These standards are used globally for suspicious activity reporting by financial institutions to financial intelligence units.
 
 For more information on goAML, you can visit the following resources:
 
-- [goAML](https://www.unodc.org/unodc/en/money-laundering/goaml.html)
-- [goAML Documentation](https://www.unodc.org/documents/money-laundering/goAML/GoAML_User_Manual.pdf)
+- [goAML](https://www.unodc.org/unodc/en/global-it-products/goaml.html)
+- [goAML Description](https://unite.un.org/goaml/content/description)
+- [goAML 5.0 with Crypto-currency support](https://unite.un.org/goportfolio/news/unodc-publishes-landmark-release-goaml-50)
 
 ## License
 

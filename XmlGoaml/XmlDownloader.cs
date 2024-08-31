@@ -13,7 +13,7 @@ namespace XmlGoaml
 
 		public XmlDownloader(string xsdSchemaPath)
 		{
-			_xsdSchemaPath = xsdSchemaPath;
+			_xsdSchemaPath = xsdSchemaPath ?? string.Empty;
 			_reportData = new ReportData(); // Initialize with default empty data
 		}
 
