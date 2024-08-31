@@ -1,6 +1,6 @@
 {
 	"name": "xmlgoaml",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A .NET project for processing and validating goAML data.",
 	"scripts": {
 		"start": "dotnet run",
@@ -15,7 +15,6 @@
 	"keywords": [
 		"xml",
 		"xsd",
-		"json",
 		"dotnet",
 		"csharp",
 		"goaml",
